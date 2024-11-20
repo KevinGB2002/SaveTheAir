@@ -1,0 +1,122 @@
+/* Contenedor de las banderas */
+.flag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Poste de la bandera */
+.flag-pole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 220px;
+}
+
+    /* Diseño del poste */
+    .flag-pole::before {
+        content: '';
+        width: 10px;
+        height: 150px;
+        background: #8B4513; /* Color del poste */
+        border-radius: 5px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+/* Bandera */
+.flag {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    background: #fff;
+    border-radius: 10px 0 0 10px;
+    clip-path: path('M0,0 H180 Q200,50 180,100 H0 Z'); /* Borde ondulado */
+    animation: wave 2s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+    overflow: hidden;
+}
+
+/* Colores de las banderas */
+.green {
+    background-color: #00e400;
+}
+
+.yellow {
+    background-color: #ffff00;
+    color: black;
+}
+
+.orange {
+    background-color: #ff7e00;
+}
+
+.red {
+    background-color: red;
+}
+
+.purple {
+    background-color: #8f3f97;
+}
+
+.maroon {
+    background-color: #7e0023;
+}
+
+/* Efecto ondulante */
+@keyframes wave {
+    0% {
+        transform: translateX(0) skewY(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) skewY(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) skewY(-2deg);
+    }
+
+    100% {
+        transform: translateX(0) skewY(0deg);
+    }
+}
+
+/* Añadir ondulación a los bordes superior e inferior */
+.flag::before,
+.flag::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: inherit;
+    z-index: 1;
+}
+
+.flag::before {
+    top: -10px;
+    border-radius: 50%;
+}
+
+.flag::after {
+    bottom: -10px;
+    border-radius: 50%;
+}
+
+/* Texto en la bandera */
+.flag .text {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    line-height: 1.4;
+}

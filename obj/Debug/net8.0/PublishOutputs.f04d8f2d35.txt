@@ -1,0 +1,7 @@
+C:\Users\Kevin\source\repos\SaveTheAir\obj\Debug\net8.0\PubTmp\Out\SaveTheAir.exe
+C:\Users\Kevin\source\repos\SaveTheAir\obj\Debug\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Kevin\source\repos\SaveTheAir\obj\Debug\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Kevin\source\repos\SaveTheAir\obj\Debug\net8.0\PubTmp\Out\SaveTheAir.dll
+C:\Users\Kevin\source\repos\SaveTheAir\obj\Debug\net8.0\PubTmp\Out\SaveTheAir.deps.json
+C:\Users\Kevin\source\repos\SaveTheAir\obj\Debug\net8.0\PubTmp\Out\SaveTheAir.runtimeconfig.json
+C:\Users\Kevin\source\repos\SaveTheAir\obj\Debug\net8.0\PubTmp\Out\SaveTheAir.pdb

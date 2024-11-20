@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kevin\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|c:\\users\\kevin\\source\\repos\\savetheair\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|c:\\users\\kevin\\source\\repos\\savetheair\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|c:\\users\\kevin\\source\\repos\\savetheair\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|c:\\users\\kevin\\source\\repos\\savetheair\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|c:\\users\\kevin\\source\\repos\\savetheair\\heroku.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|solutionrelative:heroku.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|c:\\users\\kevin\\source\\repos\\savetheair\\views\\home\\plantas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|solutionrelative:views\\home\\plantas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|c:\\users\\kevin\\source\\repos\\savetheair\\views\\home\\medicos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|solutionrelative:views\\home\\medicos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|c:\\users\\kevin\\source\\repos\\savetheair\\views\\home\\capacitacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|solutionrelative:views\\home\\capacitacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|c:\\users\\kevin\\source\\repos\\savetheair\\views\\home\\alertas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|solutionrelative:views\\home\\alertas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|c:\\users\\kevin\\source\\repos\\savetheair\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E164C2-83DA-4FAB-B118-3F696CA41C13}|SaveTheAir.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAI4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T00:47:50.998Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAwwIcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T02:23:58.688Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-20T01:27:33.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T00:45:24.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddressBinder.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs",
+              "ToolTip": "C:\\Users\\Kevin\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs [Solo lectura]",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAgwK4AAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T02:17:10.869Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "heroku.yml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\heroku.yml",
+              "RelativeDocumentMoniker": "heroku.yml",
+              "ToolTip": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\heroku.yml",
+              "RelativeToolTip": "heroku.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-11-20T01:28:35.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Plantas.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Home\\Plantas.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Plantas.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Home\\Plantas.cshtml",
+              "RelativeToolTip": "Views\\Home\\Plantas.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T21:27:51.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Alertas.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Home\\Alertas.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Alertas.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Home\\Alertas.cshtml",
+              "RelativeToolTip": "Views\\Home\\Alertas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T20:44:49.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Capacitacion.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Home\\Capacitacion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Capacitacion.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Home\\Capacitacion.cshtml",
+              "RelativeToolTip": "Views\\Home\\Capacitacion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T22:15:08.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:22:38.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Medicos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Home\\Medicos.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Medicos.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\source\\repos\\SaveTheAir\\Views\\Home\\Medicos.cshtml",
+              "RelativeToolTip": "Views\\Home\\Medicos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T01:06:35.36Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
