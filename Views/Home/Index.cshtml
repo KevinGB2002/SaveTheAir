@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes, minimal-ui">
+
+    <meta name="description" content="I visited 32 places out of 33. That's 97% of Colombia! #Colombia #mytravels #travelmap">
+    <meta name="keywords" content="maps, travel, visited countries, charts, visual">
+
+    <meta property="og:title" content="Interactive Visited Places Map" />
+    <meta property="og:description" content="I visited 32 places out of 33. That's 97% of Colombia! #Colombia #mytravels #travelmap" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://www.amcharts.com/inspiration/images/shots/index.jpg" />
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- VisitedPlaces.com code -->
+    <div id="chartdiv" style="width: 100%; height: 600px;"></div>
+    <script>
+        // VisitedPlaces.com code
+        var visitedplaces_config = {
+            "map": "colombia",
+            "projection": "geoEquirectangular",
+            "theme": "light-green",
+            "water": 0,
+            "graticule": 0,
+            "names": 1,
+            "duration": 2000,
+            "slider": 0,
+            "autoplay": 0,
+            "autozoom": "none",
+            "data": [
+                {
+                    "colors": {
+                        "CO-AMA": "039900",
+                        "CO-PUT": "039900",
+                        "CO-NAR": "039900",
+                        "CO-VAU": "039900",
+                        "CO-DC": "e11414",
+                        "CO-GUA": "039900",
+                        "CO-GUV": "039900",
+                        "CO-CHO": "039900",
+                        "CO-ANT": "e11414",
+                        "CO-VAC": "ea832e",
+                        "CO-ATL": "ea832e",
+                        "CO-SAN": "fdf626",
+                        "CO-TOL": "e11414",
+                        "CO-CUN": "e11414",
+                        "CO-MAG": "e11414",
+                        "CO-BOL": "e11414",
+                        "CO-VID": "fdf626",
+                        "CO-CAL": "fdf626",
+                        "CO-HUI": "fdf626"
+                    },
+                    "places": [
+                        "CO-AMA",
+                        "CO-PUT",
+                        "CO-NAR",
+                        "CO-HUI",
+                        "CO-VAU",
+                        "CO-LAG",
+                        "CO-CAS",
+                        "CO-MAG",
+                        "CO-ATL",
+                        "CO-BOL",
+                        "CO-NSA",
+                        "CO-SAN",
+                        "CO-ANT",
+                        "CO-SUC",
+                        "CO-COR",
+                        "CO-CHO",
+                        "CO-VAC",
+                        "CO-CAU",
+                        "CO-MET",
+                        "CO-TOL",
+                        "CO-BOY",
+                        "CO-CAL",
+                        "CO-RIS",
+                        "CO-ARA",
+                        "CO-QUI",
+                        "CO-VID",
+                        "CO-GUV",
+                        "CO-DC",
+                        "CO-CAQ",
+                        "CO-GUA",
+                        "CO-CES",
+                        "CO-CUN"
+                    ],
+                    "text": ""
+                }
+            ],
+            "home": "CO"
+        };
+    </script>
+    <div id="chartdiv" style="width: 100%; height: 600px;">
+        <script src="https://www.visitedplaces.com/js/common.js"></script>
+        <script src="https://www.visitedplaces.com/js/viewer.js"></script>
+        <!-- end: VisitedPlaces.com code -->
+        <!-- Botones de funciones adicionales -->
+        <div class="text-center">
+            <div class="container-row">
+                <!-- Botón para Asistencia Médica -->
+                <button class="video-button" onclick="window.location.href='@Url.Action("Medicos", "Home")'">
+                    <div class="video-container">
+                        <video autoplay loop muted playsinline class="video-background">
+                            <source src="/images/Medical.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <span class="text-overlay">Asistencia Médica</span>
+                    </div>
+                </button>
+
+                <!-- Botón para Alertas de Contaminación -->
+                <button class="video-button" onclick="window.location.href='@Url.Action("Alertas", "Home")'">
+                    <div class="video-container">
+                        <video autoplay loop muted playsinline class="video-background">
+                            <source src="/images/Alerta.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <span class="text-overlay">Alertas de Contaminación</span>
+                    </div>
+                </button>
+
+                <!-- Botón para Capacitación Ambiental -->
+                <button class="video-button" onclick="window.location.href='@Url.Action("Capacitacion", "Home")'">
+                    <div class="video-container">
+                        <video autoplay loop muted playsinline class="video-background">
+                            <source src="/images/Capacitacion.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <span class="text-overlay">Capacitación Ambiental</span>
+                    </div>
+                </button>
+
+                <!-- Botón para Portafolio de Plantas -->
+                <button class="video-button" onclick="window.location.href='@Url.Action("Plantas", "Home")'">
+                    <div class="video-container">
+                        <video autoplay loop muted playsinline class="video-background">
+                            <source src="/images/Plants.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <span class="text-overlay">Portafolio de Plantas</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <style>
+            .video-button {
+                position: relative;
+                width: 100%;
+                max-width: 300px;
+                height: 250px;
+                border: none;
+                border-radius: 15px;
+                overflow: hidden;
+                margin: 20px;
+                padding: 0;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                text-align: center;
+                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+                .video-button:hover {
+                    transform: scale(1.05);
+                    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+                }
+
+            .text-overlay {
+                position: absolute;
+                bottom: 10px;
+                left: 0;
+                right: 0;
+                padding: 10px;
+                background-color: rgba(0, 0, 0, 0.5);
+                color: #fff;
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+
+            .video-container {
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+
+            .video-background {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+</body>
+</html>

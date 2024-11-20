@@ -1,0 +1,150 @@
+﻿@{
+    ViewData["Title"] = "𝓟𝓸𝓻𝓽𝓪𝓯𝓸𝓵𝓲𝓸 𝓭𝓮 𝓟𝓵𝓪𝓷𝓽𝓪𝓼";
+}
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<div class="plant-container">
+    <!-- Contenedor de planta 1 -->
+    <div class="plant-card">
+        <img src="/images/Planta1.jpg" alt="Planta 1" class="plant-image">
+        <h3>Espatifilo (Spathiphyllum):</h3>
+        <p>Conocida como "lirio de la paz", esta planta es muy eficaz para eliminar el benceno, formaldehído y tricloroetileno. Además, es una planta ornamental con hermosas flores blancas.</p>
+        <button onclick="window.location.href='@Url.Action("PlantaDetalle", "Plantas", new { id = 1 })'">Ver Detalles</button>
+    </div>
+
+    <!-- Contenedor de planta 2 -->
+    <div class="plant-card">
+        <img src="/images/Planta2.jpg" alt="Planta 2" class="plant-image">
+        <h3>Poto (Epipremnum aureum): </h3>
+        <p>Una planta muy resistente y fácil de cuidar, ideal para principiantes. Es excelente para eliminar el formaldehído, benceno y tricloroetileno del aire.</p>
+        <button onclick="window.location.href='@Url.Action("PlantaDetalle", "Plantas", new { id = 2 })'">Ver Detalles</button>
+    </div>
+
+    <!-- Contenedor de planta 3 -->
+    <div class="plant-card">
+        <img src="/images/Planta3.jpg" alt="Planta 3" class="plant-image">
+        <h3>Sansevieria (Lengua de suegra): </h3>
+        <p>Una planta muy resistente que requiere poco cuidado. Es capaz de absorber dióxido de carbono y liberar oxígeno por la noche, lo que la hace ideal para dormitorios. Además, elimina el benceno, formaldehído, xileno y tolueno.</p>
+        <button onclick="window.location.href='@Url.Action("PlantaDetalle", "Plantas", new { id = 3 })'">Ver Detalles</button>
+    </div>
+
+    <!-- Contenedor de planta 4 -->
+    <div class="plant-card">
+        <img src="/images/Planta4.jpg" alt="Planta 4" class="plant-image">
+        <h3>Palmera de bambú (Chamaedorea elegans): </h3>
+        <p>Una planta elegante y tropical que ayuda a eliminar el benceno, formaldehído, tricloroetileno y xileno del aire.</p>
+        <button onclick="window.location.href='@Url.Action("PlantaDetalle", "Plantas", new { id = 4 })'">Ver Detalles</button>
+    </div>
+
+    <!-- Contenedor de planta 5 -->
+    <div class="plant-card">
+        <img src="/images/Planta5.jpg" alt="Planta 5" class="plant-image">
+        <h3>Ficus robusta: </h3>
+        <p>Un árbol de interior de gran tamaño que puede purificar grandes espacios. Elimina el formaldehído, benceno y tricloroetileno del aire.</p>
+        <button onclick="window.location.href='@Url.Action("PlantaDetalle", "Plantas", new { id = 5 })'">Ver Detalles</button>
+    </div>
+
+    <!-- Contenedor de planta 6 -->
+    <div class="plant-card">
+        <img src="/images/Planta6.jpg" alt="Planta 6" class="plant-image">
+        <h3>Dracaena marginata: </h3>
+        <p>Esta planta es muy resistente y se adapta a diferentes condiciones de luz. Es eficaz para eliminar el benceno, tricloroetileno y formaldehído.</p>
+        <button onclick="window.location.href='@Url.Action("PlantaDetalle", "Plantas", new { id = 6 })'">Ver Detalles</button>
+    </div>
+
+    <!-- Contenedor de planta 7 -->
+    <div class="plant-card">
+        <img src="/images/Planta7.jpg" alt="Planta 7" class="plant-image">
+        <h3>Aloe vera: </h3>
+        <p>Además de sus propiedades medicinales, el aloe vera también es una excelente planta purificadora de aire. Elimina el benceno y el formaldehído.</p>
+        <button onclick="window.location.href='@Url.Action("PlantaDetalle", "Plantas", new { id = 7 })'">Ver Detalles</button>
+    </div>
+
+    <!-- Contenedor de planta 8 -->
+    <div class="plant-card">
+        <img src="/images/Planta8.jpg" alt="Planta 8" class="plant-image">
+        <h3>Cinta o malamadre: </h3>
+        <p>Una planta muy resistente y fácil de cuidar, ideal para principiantes. Elimina el benceno, formaldehído, xileno y tolueno.</p>
+        <button onclick="window.location.href='@Url.Action("PlantaDetalle", "Plantas", new { id = 8 })'">Ver Detalles</button>
+    </div>
+</div>
+
+<style>
+    /* Imagen de fondo para toda la página */
+    body {
+        background-image: url('/images/Fondoa.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Contenedor general de las plantas */
+    .plant-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* Estilo de cada tarjeta de planta */
+    .plant-card {
+        background-color: #e0f7fa;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Efecto hover para la tarjeta de planta */
+    .plant-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Imagen de la planta */
+    .plant-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    /* Título de la planta */
+    .plant-card h3 {
+        color: #00796b;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    /* Descripción de la planta */
+    .plant-card p {
+        color: #555;
+        margin-bottom: 15px;
+        font-size: 1em;
+    }
+
+    /* Estilo del botón */
+    .plant-card button {
+        background-color: #00796b;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Efecto hover para el botón */
+    .plant-card button:hover {
+        background-color: #004d40;
+    }
+
+</style>

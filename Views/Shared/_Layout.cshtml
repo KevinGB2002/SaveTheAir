@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SaveTheAir</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Alertas.css" asp-append-version="true" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="~/SaveTheAir.styles.css" asp-append-version="true" />
+    <style>
+        body {
+            background-color: #e0f7fa; /* Color de fondo claro, similar a cielo despejado */
+            font-family: 'Arial', sans-serif;
+            color: #2e2e2e; /* Gris oscuro para el texto */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3') no-repeat center center;
+            background-size: cover;
+            padding: 40px 0;
+            text-align: center;
+            color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transform: translateY(-20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+            .header-content.visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        .header-title {
+            font-family: 'Great Vibes', cursiva;
+            font-size: 3.5em;
+            margin: 0 15px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .header-logo {
+            height: 120px;
+        }
+
+
+        .navbar-brand {
+            color: white !important;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        nav .navbar-toggler-icon {
+            background-color: white;
+        }
+
+        /* Eliminar diseño de contenedores */
+        .container-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        /* Se eliminan los estilos de .container-hover */
+        .container-hover {
+            width: 100%;
+            max-width: 300px;
+            height: auto; /* Altura automática */
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+            footer a {
+                color: #c8e6c9;
+                text-decoration: none;
+            }
+
+                footer a:hover {
+                    text-decoration: underline;
+                }
+
+            footer .logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+
+                footer .logo img {
+                    height: 50px;
+                    margin-right: 10px;
+                }
+
+            footer ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 10px 0;
+            }
+
+                footer ul li {
+                    display: inline;
+                    margin: 0 15px;
+                }
+
+                    footer ul li a {
+                        color: white;
+                        font-weight: bold;
+                    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container-fluid">
+                <div class="header-content">
+                    <a class="header-title" asp-controller="Home" asp-action="Index">𝓢𝓪𝓿𝓮 𝓣𝓱𝓮 𝓐𝓲𝓻</a>
+                    <img src="/images/Save.png" alt="Logotipo" class="header-logo">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @* <footer>
+    <div class="container">
+    &copy; 2024 - SaveTheAir - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+    </footer> *@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const headerContent = document.querySelector('.header-content');
+            setTimeout(() => {
+                headerContent.classList.add('visible');
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

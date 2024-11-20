@@ -1,0 +1,150 @@
+﻿@{
+    ViewData["Title"] = "𝓐𝓼𝓲𝓼𝓽𝓮𝓷𝓬𝓲𝓪 𝓓𝓮 𝓜𝓮𝓭𝓲𝓬𝓸𝓼";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<!-- CSS adicional para mejorar la apariencia -->
+<style>
+    .doctor-card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        margin-bottom: 20px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+        .doctor-card img {
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .doctor-card .form-check-label {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .doctor-card .description {
+            flex-grow: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+    .row {
+        margin-top: 15px;
+    }
+
+    .form-check {
+        margin-bottom: 0;
+    }
+</style>
+
+<div class="col-md-10">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            Selección de Doctor
+        </div>
+        <div class="card-body">
+            <form id="selectionForm" onsubmit="return showModal()">
+                <div class="row">
+                    <!-- Doctor 1 -->
+                    <div class="col-md-4">
+                        <div class="doctor-card">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="doctor" value="doctor1" id="doctor1">
+                                <label class="form-check-label" for="doctor1">
+                                    <img src="/images/Doctores1.jpg" alt="Doctor 1" class="img-fluid">
+                                    <div class="description">
+                                        <strong>Dr. Santiago Ramírez</strong>, 45 años, Neumólogo, Universidad de los Andes<br>
+                                        El Dr. Ramírez es un neumólogo de renombre nacional, especializado en enfermedades respiratorias y su relación con la contaminación del aire.
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Doctor 2 -->
+                    <div class="col-md-4">
+                        <div class="doctor-card">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="doctor" value="doctor2" id="doctor2">
+                                <label class="form-check-label" for="doctor2">
+                                    <img src="/images/Doctores2.jpg" alt="Doctor 2" class="img-fluid">
+                                    <div class="description">
+                                        <strong>Dra. Camila Morales</strong>, 38 años, Alergóloga, Universidad Nacional de Colombia<br>
+                                        Especializada en alergias respiratorias, combinando tratamientos farmacológicos con medidas ambientales.
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Doctor 3 -->
+                    <div class="col-md-4">
+                        <div class="doctor-card">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="doctor" value="doctor3" id="doctor3">
+                                <label class="form-check-label" for="doctor3">
+                                    <img src="/images/Doctores3.jpg" alt="Doctor 3" class="img-fluid">
+                                    <div class="description">
+                                        <strong>Dr. David López</strong>, 52 años, Médico Internista, Universidad Pontificia Bolivariana<br>
+                                        Experto en el manejo de enfermedades crónicas relacionadas con la contaminación del aire.
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Doctor 4 -->
+                    <div class="col-md-4">
+                        <div class="doctor-card">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="doctor" value="doctor4" id="doctor4">
+                                <label class="form-check-label" for="doctor4">
+                                    <img src="/images/Doctores4.jpg" alt="Doctor 4" class="img-fluid">
+                                    <div class="description">
+                                        <strong>Dra. Sofía Hernández</strong>, 35 años, Toxicóloga, Universidad de Antioquia<br>
+                                        Experta en evaluar riesgos de sustancias tóxicas en la salud.
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Doctor 5 -->
+                    <div class="col-md-4">
+                        <div class="doctor-card">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="doctor" value="doctor5" id="doctor5">
+                                <label class="form-check-label" for="doctor5">
+                                    <img src="/images/Doctores5.jpg" alt="Doctor 5" class="img-fluid">
+                                    <div class="description">
+                                        <strong>Dr. Daniel Castro</strong>, 40 años, Especialista en Salud Ambiental, Universidad del Valle<br>
+                                        Promueve la salud pública mediante la mejora de la calidad del aire.
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    // Función para mostrar el modal cuando se envía el formulario
+    function showModal() {
+        // Verifica si se ha seleccionado un doctor
+        var doctorSelected = document.querySelector('input[name="doctor"]:checked');
+        if (doctorSelected) {
+            // Muestra el modal de éxito
+            var myModal = new bootstrap.Modal(document.getElementById('successModal'));
+            myModal.show();
+        } else {
+            alert("Por favor, selecciona un doctor.");
+            return false; // Evita el envío del formulario si no se seleccionó un doctor
+        }
+        return false; // Evita el envío real para la demostración
+    }
+</script>

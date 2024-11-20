@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "𝓒𝓪𝓹𝓪𝓬𝓲𝓽𝓪𝓬𝓲ó𝓷";
+}
+<h1 class="text-center">@ViewData["Title"]</h1>
+<p class="text-center">Elige entre nuestros cursos de capacitación para mejorar tus habilidades en temas ambientales y de salud.</p>
+
+<div class="course-container">
+    <!-- Curso 1 -->
+    <div class="course-card">
+        <h3>Curso de Concientización Ambiental</h3>
+        <p>Aprende sobre la importancia de preservar el medio ambiente y técnicas de conservación.</p>
+        <button onclick="window.location.href='@Url.Action("CursoDetalle", "Cursos", new { id = 1 })'">Más Información</button>
+    </div>
+
+    <!-- Curso 2 -->
+    <div class="course-card">
+        <h3>Curso de Manejo de Residuos</h3>
+        <p>Descubre métodos eficaces para el reciclaje y la correcta gestión de residuos.</p>
+        <button onclick="window.location.href='@Url.Action("CursoDetalle", "Cursos", new { id = 2 })'">Más Información</button>
+    </div>
+
+    <!-- Curso 3 -->
+    <div class="course-card">
+        <h3>Curso de Primeros Auxilios</h3>
+        <p>Capacítate en técnicas básicas de primeros auxilios para responder ante emergencias.</p>
+        <button onclick="window.location.href='@Url.Action("CursoDetalle", "Cursos", new { id = 3 })'">Más Información</button>
+    </div>
+
+    <!-- Curso 4 -->
+    <div class="course-card">
+        <h3>Curso de Salud y Seguridad Ocupacional</h3>
+        <p>Aprende sobre prácticas seguras en el entorno laboral para proteger tu salud.</p>
+        <button onclick="window.location.href='@Url.Action("CursoDetalle", "Cursos", new { id = 4 })'">Más Información</button>
+    </div>
+
+    <!-- Curso 5 -->
+    <div class="course-card">
+        <h3>Curso de Contaminación del Aire</h3>
+        <p>Explora los efectos de la contaminación del aire y las formas de mitigar su impacto.</p>
+        <button onclick="window.location.href='@Url.Action("CursoDetalle", "Cursos", new { id = 5 })'">Más Información</button>
+    </div>
+
+    <!-- Curso 6 -->
+    <div class="course-card">
+        <h3>Curso de Energías Renovables</h3>
+        <p>Conoce las fuentes de energía limpia y cómo contribuyen a un futuro sostenible.</p>
+        <button onclick="window.location.href='@Url.Action("CursoDetalle", "Cursos", new { id = 6 })'">Más Información</button>
+    </div>
+</div>
+
+<style>
+    /* Contenedor principal de los cursos */
+    .course-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding: 40px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* Estilo de cada tarjeta de curso */
+    .course-card {
+        background-color: #f0f4c3;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 320px; /* Asegura que todas las tarjetas tengan la misma altura */
+    }
+
+        /* Efecto hover para la tarjeta */
+        .course-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Título del curso */
+        .course-card h3 {
+            color: #388e3c;
+            margin-bottom: 15px;
+            font-size: 1.25em;
+            font-weight: bold;
+        }
+
+        /* Descripción del curso */
+        .course-card p {
+            color: #555;
+            margin-bottom: 20px;
+            font-size: 1em;
+        }
+
+        /* Estilo del botón */
+        .course-card button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+            width: 100%; /* El botón ocupa el ancho completo */
+        }
+
+            /* Efecto hover para el botón */
+            .course-card button:hover {
+                background-color: #388e3c;
+            }
+</style>
